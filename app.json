@@ -34,5 +34,6 @@
   ],
   "contextSensitiveHelpUrl": "https://DotNetReferencing.com/help/",
   "showMyCode": true,
+  "target": "OnPrem",
   "runtime": "5.0"
 }
