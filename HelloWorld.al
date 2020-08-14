@@ -5,7 +5,9 @@
 pageextension 50100 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
+    var
+        AESEncyptionLib: DotNet AESEncryption;
     begin
-        Message('App published: Hello world');
+        // AESEncyptionLib.FileEncrypt();
     end;
 }
