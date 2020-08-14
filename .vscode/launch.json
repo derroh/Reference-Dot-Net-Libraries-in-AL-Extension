@@ -4,16 +4,17 @@
         {
             "type": "al",
             "request": "launch",
-            "name": "Your own server",
-            "server": "http://localhost",
+            "name": "LAPTOP-V49G92CK",
+            "server": "http://localhost:16046",
             "serverInstance": "BC160",
-            "authentication": "UserPassword",
-            "startupObjectId": 22,
+            "port":16049,
+            "authentication": "Windows",
+            "startupObjectId": 1,
             "startupObjectType": "Page",
             "breakOnError": true,
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true
+            "enableSqlInformationDebugger": true,
         }
     ]
 }
